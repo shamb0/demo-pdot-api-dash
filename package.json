@@ -1,0 +1,23 @@
+{
+  "name": "demo-pdot-api-dash",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:shamb0/demo-pdot-api-dash.git",
+  "author": "shamb0 <r.raajey@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "gh-pages-deploy": "node scripts/gh-pages-deploy.js"
+  },
+  "dependencies": {
+    "@polkadot/api": "^2.4.1",
+    "core-js": "^3.6.5",
+    "vue": "^2.6.12"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^4.5.8",
+    "execa": "^4.1.0",
+    "vue-template-compiler": "^2.6.12"
+  }
+}
